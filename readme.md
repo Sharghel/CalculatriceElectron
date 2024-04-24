@@ -10,7 +10,7 @@ Cette calculatrice permet de calculer un prêt immobilier et son ammortissement 
 
 ## Visuels (retirez le titre une fois renseigné)
 
-![Image calculatrice](https://github.com/SHarghel/CalculatriceElectron/blob/master/calc.png)
+![Image calculatrice](https://github.com/SHarghel/CalculatriceElectron/blob/main/calc.png)
 
 ## prérequis
 
