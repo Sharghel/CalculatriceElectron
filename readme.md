@@ -8,7 +8,6 @@ Cette calculatrice permet de calculer un prêt immobilier et son ammortissement 
 
 ![texte_alternatif](https://img.shields.io/badge/build-passing-green "description du badge")
 
-## Visuels (retirez le titre une fois renseigné)
 
 ![Image calculatrice](https://github.com/SHarghel/CalculatriceElectron/blob/main/calc.png)
 
@@ -20,7 +19,38 @@ Nécéssite au minimum node avec la version v20.11.0 & v10.2.4
 
 **Note** : Ce tutoriel ne prends en compte uniquement les commandes sur Windows.
 
-
+**1 :** Ouvrir un invite de commande et rentrer
+```
+git clone https://github.com/Sharghel/CalculatriceElectron.git
+```
+**2 :** S'assurer des bonnes versions de node & npm
+```
+node -v 
+npm -v
+```
+**3 :** Depuis l'invite de commande suivre l'arborescence du dossier
+```
+cd CalculatriceElectron/my-electron-app/
+```
+**4 :** Installer le package Electron 
+```
+npm install --save-dev electron
+```
+Vous pouvez vous assurez du bon fonctionnement de l'installer grâce à la commande
+```
+npm start
+```
+**5 :** Concernant la distribution vous devez d'abord tout importer
+```
+npm install --save-dev @electron-forge/cli
+npx electron-forge import
+```
+**6 :** Creation de la distribution avec
+```
+npm run make
+```
+Vous trouverez votre executable dans le dossier ```my-electron-app/out/calculatrice-win32-x64/```
+avec le nom calculatrice.exe
 
 ## Utilisation
 
